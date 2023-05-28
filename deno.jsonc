@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net main.ts",
+    "dev": "deno run --watch --allow-net main.ts"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 88,
+    "indentWidth": 2,
+    "semiColons": false,
+    "singleQuote": true,
+    "proseWrap": "preserve",
+    "include": [
+      "src/",
+      "."
+    ],
+    "exclude": []
+  }
+}
